@@ -13,7 +13,7 @@ Jatin-2310990700 (Developer and Tester)
 
 ## How to Play:-
 
-1.	Run the space_word_challenge.py script.
+1.	Run the python file.
 
 2.	You will be presented with a planet name with missing letters (displayed as underscores).
 
