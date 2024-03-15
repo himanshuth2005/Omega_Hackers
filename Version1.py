@@ -23,20 +23,20 @@ class SpaceWordChallengeCLI:
         return displayed_planet
 
     def check_guess(self, guess):
-        # Check if the guess is a single letter
+        
         if not guess.isalpha() or len(guess) != 1:
             print("Invalid guess. Please enter a single letter.")
             return
 
-        # Check if the letter has already been guessed
+        
         if guess in self.guessed_letters:
             print("You already guessed that letter!")
             return
 
-        # Add the guess to the guessed letters list
+        
         self.guessed_letters.append(guess)
 
-        # Check if the guess is incorrect
+        
         if guess not in self.planet.lower():
             self.attempts -= 1
             print(f"Oops! '{guess}' is not in the planet name. You have {self.attempts} attempts left.")
