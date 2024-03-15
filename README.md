@@ -1,1 +1,1 @@
-this file is a intro or details about project
+this file is a intro or details about project game.
