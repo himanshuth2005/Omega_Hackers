@@ -56,4 +56,58 @@ Jatin-2310990700 (Developer and Tester)
 7. Allows players to start a new game or reset the current game.
 
 
+## Specifications According to Versions
+
+
+### Version1:-
+
+1. Randomly selects a planet name from a predefined list of planets in our solar system.
+
+2. Allows players to guess one letter at a time.
+
+3. Provides feedback on whether the guessed letter is correct or incorrect.
+
+4. Limits the number of attempts based on the difficulty level (default: 6 attempts).
+
+5. Displays the partially guessed planet name, with underscores representing unguessed letters.
+
+6. Ends the game when the player guesses all the letters correctly or runs out of attempts.
+
+7. Calculates the player's score based on the number of attempts remaining and the time taken to guess the planet.
+
+
+### Version2:-
+
+1. Graphical user interface implemented using Tkinter for an interactive gaming experience.
+
+2. Displays the name of the selected planet with underscores representing unguessed letters.
+
+3. Allows players to guess one letter at a time via text entry.
+
+4. Provides feedback on whether the guessed letter is correct or incorrect through message boxes.
+
+5. Limits the number of attempts based on the difficulty level (default: 6 attempts).
+
+6. Ends the game when the player guesses all the letters correctly or runs out of attempts.
+
+
+### Version3:-
+
+1. Graphical user interface implemented using Tkinter for an interactive gaming experience.
+
+2. Displays the name of the selected planet with underscores representing unguessed letters.
+
+3. Allows players to guess one letter at a time via text entry.
+
+4. Provides feedback on whether the guessed letter is correct or incorrect through message boxes.
+
+5. Limits the number of attempts based on the selected difficulty level (Easy: 5 attempts, Medium: 4 attempts, Hard: 3 attempts).
+
+6. Ends the game when the player guesses all the letters correctly or runs out of attempts.
+
+7. Displays a timer indicating the time elapsed since the start of the game.
+
+8. Resets the game to its initial state with the ability to start a new game or change difficulty levels.
+
+
 
