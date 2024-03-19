@@ -8,9 +8,9 @@ Space Word Challenge is a simple word guessing game built using Python and Tkint
 
 ## Team Members:
 
-Himanshu-2310990690 (Manager)
+Himanshu-2310990690 (Manager and Tester)
 
-Jatin-2310990700 (Developer and Tester)
+Jatin-2310990700 (Developer)
 
 
 ## Instructions
