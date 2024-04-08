@@ -56,7 +56,7 @@ class SpaceWordChallenge:
         self.reset_button = tk.Button(self.master, text="Reset", font=("Arial", 20), bg=self.button_color, fg=self.label_color, command=self.reset_game, state=tk.DISABLED)
         self.reset_button.pack(pady=20)
         
-        self.attempts_label = tk.Label(self.master, text="Your Text Here", font=("Arial", 20), fg='white', bg='black')
+        self.attempts_label = tk.Label(self.master, text="", font=("Arial", 20), fg='white', bg='black')
         self.attempts_label.pack()
 
         self.quit_button = tk.Button(self.master, text="Quit", font=("Arial", 20), bg=self.button_color, fg=self.label_color, command=self.master.destroy)
