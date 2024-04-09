@@ -55,9 +55,9 @@ class SpaceWordChallenge:
 
         self.reset_button = tk.Button(self.master, text="Reset", font=("Arial", 20), bg=self.button_color, fg=self.label_color, command=self.reset_game, state=tk.DISABLED)
         self.reset_button.pack(pady=20)
-        
+
         self.attempts_label = tk.Label(self.master, text="", font=("Arial", 20), fg='white', bg='black')
-        self.attempts_label.pack()
+        self.attempts_label.pack()  # Display attempts left
 
         self.quit_button = tk.Button(self.master, text="Quit", font=("Arial", 20), bg=self.button_color, fg=self.label_color, command=self.master.destroy)
         self.quit_button.pack(pady=20)
@@ -88,9 +88,9 @@ class SpaceWordChallenge:
         self.entry.config(state=tk.NORMAL)
         self.guess_button.config(state=tk.NORMAL)
         self.attempts = 5  # Reset attempts
-        self.attempts_label.config(text=f"Attempts left: {self.attempts}")
         self.update_display()
         self.update_timer()
+        self.update_attempts_label()  # Update attempts left label
 
     def reset_game(self):
         self.planet_label.config(text="")
@@ -100,7 +100,7 @@ class SpaceWordChallenge:
         self.entry.config(state=tk.DISABLED)
         self.guess_button.config(state=tk.DISABLED)
         self.game_started = False
-        self.attempts_label.config(text="")  # Remove attempts label
+        self.attempts_label.config(text="")  # Remove attempts left label
         self.timer_label.config(text="")
         self.score_label.config(text="")  # Remove score label
         self.timer_stopped = True  
@@ -141,7 +141,7 @@ class SpaceWordChallenge:
             return
 
         if guess in self.guessed_letters:
-            messagebox.showinfo("Invalid Guess", "You already guessed that letter!")
+            messagebox.showinfo("Invalid Guess", "You have already entered this letter.")
             self.entry.delete(0, tk.END)
             return
 
@@ -167,7 +167,10 @@ class SpaceWordChallenge:
                 self.score_label.config(text=f"Score: {score}")
                 messagebox.showinfo("Congratulations!", f"You've guessed the word in {int(time_taken)} seconds!\nYour score: {score}")
                 self.reset_game()
-        
+    
+        self.update_attempts_label() 
+
+    def update_attempts_label(self):
         self.attempts_label.config(text=f"Attempts left: {self.attempts}")
 
     def main(self):
