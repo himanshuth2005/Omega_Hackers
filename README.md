@@ -4,8 +4,7 @@
 
 ## Description-                                                                               
                                                                                 
-
-Space Word Challenge is a simple word guessing game built using Python and Tkinter. In this game, players are tasked with guessing the name of a planet letter by letter. The game provides an interactive GUI interface for players to input their guesses.
+Space Word Challenge is a simple word guessing game built using Python and Tkinter. In this game, players must guess a word related to space within a limited number of attempts.
 
 
 ## Team Members:
@@ -17,17 +16,15 @@ Jatin-2310990700 (Developer)
 
 ## Instructions
 
-1. Launch the game.
-  
-2. Choose the difficulty level (Easy, Medium, or Hard).
-  
-3. Click the "Start" button to begin the game.
-  
-4. Enter a letter into the text entry field and press Enter or click the "Guess" button.
-  
-5. Continue guessing letters until you reveal the entire planet name or exhaust your attempts.
-  
-6. After completing the game, you can start a new game by clicking the "Start" button again or reset the current game with the "Reset" button.
+1. Starting the Game: Upon starting the game, players will be presented with a category selection menu where they can choose from Planets, Galaxies, or Stars.
+
+2. Guessing the Word: After selecting a category, players must guess the hidden word related to that category. They can do this by entering a single letter at a time into the       text entry field and pressing the "Guess" button or hitting the Enter key.
+
+3. Attempts: Players have a limited number of attempts to guess the word. Each incorrect guess will decrease the number of attempts remaining. If players run out of attempts,       the game ends.
+
+4. Winning: If players successfully guess all the letters in the word within the allotted attempts, they win the game. They will be congratulated and their score will be            displayed.
+
+5. Categories: The game includes three categories: Planets, Galaxies, and Stars. Players can select a category at the beginning of each game.
   
 
 ## Game Rules
@@ -114,4 +111,25 @@ Jatin-2310990700 (Developer)
 8. Resets the game to its initial state with the ability to start a new game or change difficulty levels.
 
 
+### FinalVersion:-
+                                                                                                                10/04/2024
+1. Category Selection: Players can choose from three categories - Planets, Galaxies, or Stars.
+
+2. Guessing Mechanism: Players guess letters to uncover the hidden word related to the chosen category.
+
+3. Attempts Counter: The game tracks the number of attempts remaining for the player to guess the word.
+
+4. Validation: Input validation ensures that players can only enter single alphabetical characters for their guesses.
+
+5. Feedback: Players receive feedback on their guesses, including whether the guess was correct or incorrect.
+
+6. Game Over Condition: If players run out of attempts without correctly guessing the word, the game ends.
+
+7. Winning Condition: If players successfully guess all the letters in the word within the allotted attempts, they win the game.
+
+8. Timer: A timer keeps track of the time taken by the player to guess the word.
+
+9. Score Calculation: Players earn a score based on the number of attempts left and the time taken to guess the word.
+
+10. Full-Screen Mode: The game maximizes to full screen for an immersive experience.
 
