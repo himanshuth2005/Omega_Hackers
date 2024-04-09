@@ -1,5 +1,5 @@
 # **Space Word Challenge**
-                                                                                                                       12/03/2024
+                                                                                                                   12/03/2024
 
 
 ## Description-                                                                               
@@ -62,7 +62,7 @@ Jatin-2310990700 (Developer)
 
 
 ### Version1:-
-                                                                                                                   12/03/2024
+                                                                                                               12/03/2024
 
 1. Randomly selects a planet name from a predefined list of planets in our solar system.
 
@@ -80,7 +80,7 @@ Jatin-2310990700 (Developer)
 
 
 ### Version2:-
-                                                                                                                    15/03/2024
+                                                                                                                 15/03/2024
 
 1. Graphical user interface implemented using Tkinter for an interactive gaming experience.
 
@@ -96,7 +96,7 @@ Jatin-2310990700 (Developer)
 
 
 ### Version3:-
-                                                                                                                    17/03/2024
+                                                                                                                17/03/2024
 1. Graphical user interface implemented using Tkinter for an interactive gaming experience.
 
 2. Displays the name of the selected planet with underscores representing unguessed letters.
