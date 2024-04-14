@@ -76,6 +76,7 @@ Jatin-2310990700 (Developer)
 7. Calculates the player's score based on the number of attempts remaining and the time taken to guess the planet.
 
 
+
 ### Version2:-
                                                                                                                  15/03/2024
 
@@ -92,7 +93,9 @@ Jatin-2310990700 (Developer)
 6. Ends the game when the player guesses all the letters correctly or runs out of attempts.
 
 
+
 ### Version3:-
+       
                                                                                                                 17/03/2024
 1. Graphical user interface implemented using Tkinter for an interactive gaming experience.
 
@@ -111,7 +114,9 @@ Jatin-2310990700 (Developer)
 8. Resets the game to its initial state with the ability to start a new game or change difficulty levels.
 
 
+
 ### FinalVersion:-
+
                                                                                                                 10/04/2024
 1. Category Selection: Players can choose from three categories - Planets, Galaxies, or Stars.
 
