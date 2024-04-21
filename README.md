@@ -1,5 +1,5 @@
 # **Space Word Challenge**
-                                                                                                          12/03/2024
+                                                                                                             12/03/2024
 
 
 ## Description-                                                                               
@@ -59,7 +59,7 @@ Jatin-2310990700 (Developer)
 
 
 ### Version1:-
-                                                                                                            12/03/2024
+                                                                                                               12/03/2024
 
 1. Randomly selects a planet name from a predefined list of planets in our solar system.
 
